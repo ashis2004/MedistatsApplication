@@ -1,0 +1,30 @@
+/* dark-toastify.css */
+.Toastify__toast--default {
+    background: #333; /* Dark background */
+    color: #fff; /* Light text */
+  }
+  
+  .Toastify__toast--success {
+    background: #4caf50; /* Green background for success */
+    color: #fff; /* Light text */
+  }
+  
+  .Toastify__toast--error {
+    background: #f44336; /* Red background for error */
+    color: #fff; /* Light text */
+  }
+  
+  .Toastify__toast--info {
+    background: #2196f3; /* Blue background for info */
+    color: #fff; /* Light text */
+  }
+  
+  .Toastify__toast--warning {
+    background: #ff9800; /* Orange background for warning */
+    color: #fff; /* Light text */
+  }
+  
+  .Toastify__toast-container {
+    margin: 0; /* Adjust if necessary */
+  }
+  
