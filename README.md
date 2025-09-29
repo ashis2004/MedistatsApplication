@@ -47,7 +47,6 @@ The trained model is validated and tested using various metrics to ensure accura
 ### Model Accuracies
 
 - **Logistic Regression (LR)**: 0.82
-- **K-Nearest Neighbors (KNN)**: 0.76
 - **Support Vector Classifier (SVC)**: 0.79
 - **Decision Tree (DT)**: 0.67
 - **Random Forest (RF)**: 0.84
