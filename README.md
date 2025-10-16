@@ -1,6 +1,5 @@
 # MedistatsApplication
-It is a sophisticated web application designed to detect behavioral disorders in children. It analyzes data patterns to provide tailored solutions for parents.
-
+This project aims to develop a sophisticated system for detecting and providing guidance on Child Behavioral Disorders (specifically targeting areas like Autism, ADHD, and Dyslexia) using a hybrid architecture. It combines traditional Classification Algorithms to objectively identify behaviors from data inputs (text analysis, activity logs) with a Generative AI (Gen AI) component to provide personalized, evidence-based recommendations.
 # Child Behaviour Detection using Classification Algorithm
 
 ## Overview
