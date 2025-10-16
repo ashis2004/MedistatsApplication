@@ -53,3 +53,27 @@ The trained model is validated and tested using various metrics to ensure accura
 - **Gradient Boosting (GB)**: 0.84
 - **AdaBoost (ADA)**: 0.84
 
+### Generative AI (Gen AI) Integration: RAG System
+To bridge the gap between classification output and actionable guidance, the project incorporates a Retrieval-Augmented Generation (RAG) system integrated with GPT-4.
+
+## Technical Workflow:
+# Knowledge Base Creation: 
+A vast library of behavioral and pediatric research papers was collected.
+
+# Chunking & Embedding: 
+This research data was processed through chunking and embedding techniques to convert the documents into high-dimensional vector representations.
+
+# Vector Store: 
+These embeddings were stored in ChromaDB, establishing a powerful and indexed knowledge base.
+
+# Chatbot Interface: 
+A real-time UI was developed where parents can input assessment data or specific queries.
+
+# Generation: 
+When the parent submits an assessment or query, the system uses the RAG architecture to:
+
+Retrieve the most relevant sections of the research papers from ChromaDB.
+
+Pass this retrieved context, along with the user's input and the ML model's classification, to GPT-4.
+
+Generate a highly contextualized and accurate response, report, or recommendation.
